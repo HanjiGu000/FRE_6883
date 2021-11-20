@@ -24,6 +24,21 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>BinomialTreeModel05.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Foo.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>OptionPricer01.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Topic1_ClassNotes_Mac.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
