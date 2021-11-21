@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "fre::OptionCalculation::PriceByCRR(fre::BinomialTreeModel const&amp;):Option04.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "pPrice[2]">
+            </PersistentString>
+            <PersistentString
+               value = "pPrice[0]">
+            </PersistentString>
+            <PersistentString
+               value = "pPrice[5]">
+            </PersistentString>
+            <PersistentString
+               value = "pPrice[3]">
+            </PersistentString>
+            <PersistentString
+               value = "pPrice[1]">
+            </PersistentString>
+            <PersistentString
+               value = "pPrice[4]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
