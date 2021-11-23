@@ -11,6 +11,13 @@
 		3E05CE83274317E400814C80 /* EurCall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E05CE81274317E400814C80 /* EurCall.cpp */; };
 		3E05CE8627431A9D00814C80 /* NonlinearSolver02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E05CE8427431A9D00814C80 /* NonlinearSolver02.cpp */; };
 		3E05CE8927431ABF00814C80 /* Function02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E05CE8727431ABF00814C80 /* Function02.cpp */; };
+		3E45F8B1274C495E001A55CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E45F8B0274C495E001A55CA /* main.cpp */; };
+		3E45F8B7274C4983001A55CA /* Function01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E45F8B5274C4983001A55CA /* Function01.cpp */; };
+		3E45F8BF274C60D4001A55CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E45F8BE274C60D4001A55CA /* main.cpp */; };
+		3E45F8C5274C618A001A55CA /* NonlinearSolver01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E45F8C3274C618A001A55CA /* NonlinearSolver01.cpp */; };
+		3E45F8CD274C6FBD001A55CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E45F8CC274C6FBD001A55CA /* main.cpp */; };
+		3E45F8D3274C700D001A55CA /* Function03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E45F8D1274C700D001A55CA /* Function03.cpp */; };
+		3E45F8DC274C740F001A55CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E45F8DB274C740F001A55CA /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +39,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		3E45F8AC274C495E001A55CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3E45F8BA274C60D4001A55CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3E45F8C8274C6FBD001A55CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3E45F8D7274C740F001A55CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +87,21 @@
 		3E05CE8527431A9D00814C80 /* NonlinearSolver02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NonlinearSolver02.hpp; sourceTree = "<group>"; };
 		3E05CE8727431ABF00814C80 /* Function02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Function02.cpp; sourceTree = "<group>"; };
 		3E05CE8827431ABF00814C80 /* Function02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Function02.hpp; sourceTree = "<group>"; };
+		3E45F8AE274C495E001A55CA /* NonlinearSovler01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NonlinearSovler01; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E45F8B0274C495E001A55CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3E45F8B5274C4983001A55CA /* Function01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Function01.cpp; sourceTree = "<group>"; };
+		3E45F8B6274C4983001A55CA /* Function01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Function01.hpp; sourceTree = "<group>"; };
+		3E45F8BC274C60D4001A55CA /* Vector_Iterator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Vector_Iterator; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E45F8BE274C60D4001A55CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3E45F8C3274C618A001A55CA /* NonlinearSolver01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NonlinearSolver01.cpp; sourceTree = "<group>"; };
+		3E45F8C4274C618A001A55CA /* NonlinearSolver01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NonlinearSolver01.hpp; sourceTree = "<group>"; };
+		3E45F8CA274C6FBD001A55CA /* NonlinearSolver03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NonlinearSolver03; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E45F8CC274C6FBD001A55CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3E45F8D1274C700D001A55CA /* Function03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Function03.cpp; sourceTree = "<group>"; };
+		3E45F8D2274C700D001A55CA /* Function03.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Function03.hpp; sourceTree = "<group>"; };
+		3E45F8D4274C70C5001A55CA /* NonlinearSolver03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NonlinearSolver03.h; sourceTree = "<group>"; };
+		3E45F8D9274C740F001A55CA /* Virtual_Destructor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Virtual_Destructor; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E45F8DB274C740F001A55CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +119,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3E45F8AB274C495E001A55CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E45F8B9274C60D4001A55CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E45F8C7274C6FBD001A55CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E45F8D6274C740F001A55CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3E05CE5D2743156F00814C80 = {
 			isa = PBXGroup;
 			children = (
-				3E05CE7B274317C500814C80 /* EurCall */,
+				3E05CE7B274317C500814C80 /* NonlinearSolver02 */,
+				3E45F8AF274C495E001A55CA /* NonlinearSovler01 */,
+				3E45F8BD274C60D4001A55CA /* Vector_Iterator */,
+				3E45F8CB274C6FBD001A55CA /* NonlinearSolver03 */,
+				3E45F8DA274C740F001A55CA /* Virtual_Destructor */,
 				3E05CE672743156F00814C80 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,11 +167,15 @@
 			children = (
 				3E05CE662743156F00814C80 /* Topic7_ClassNotes_Mac */,
 				3E05CE7A274317C500814C80 /* EurCall */,
+				3E45F8AE274C495E001A55CA /* NonlinearSovler01 */,
+				3E45F8BC274C60D4001A55CA /* Vector_Iterator */,
+				3E45F8CA274C6FBD001A55CA /* NonlinearSolver03 */,
+				3E45F8D9274C740F001A55CA /* Virtual_Destructor */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E05CE7B274317C500814C80 /* EurCall */ = {
+		3E05CE7B274317C500814C80 /* NonlinearSolver02 */ = {
 			isa = PBXGroup;
 			children = (
 				3E05CE7C274317C500814C80 /* main.cpp */,
@@ -92,8 +186,47 @@
 				3E05CE8727431ABF00814C80 /* Function02.cpp */,
 				3E05CE8827431ABF00814C80 /* Function02.hpp */,
 			);
-			path = EurCall;
+			path = NonlinearSolver02;
 			sourceTree = SOURCE_ROOT;
+		};
+		3E45F8AF274C495E001A55CA /* NonlinearSovler01 */ = {
+			isa = PBXGroup;
+			children = (
+				3E45F8B0274C495E001A55CA /* main.cpp */,
+				3E45F8B5274C4983001A55CA /* Function01.cpp */,
+				3E45F8B6274C4983001A55CA /* Function01.hpp */,
+				3E45F8C3274C618A001A55CA /* NonlinearSolver01.cpp */,
+				3E45F8C4274C618A001A55CA /* NonlinearSolver01.hpp */,
+			);
+			path = NonlinearSovler01;
+			sourceTree = "<group>";
+		};
+		3E45F8BD274C60D4001A55CA /* Vector_Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				3E45F8BE274C60D4001A55CA /* main.cpp */,
+			);
+			path = Vector_Iterator;
+			sourceTree = "<group>";
+		};
+		3E45F8CB274C6FBD001A55CA /* NonlinearSolver03 */ = {
+			isa = PBXGroup;
+			children = (
+				3E45F8CC274C6FBD001A55CA /* main.cpp */,
+				3E45F8D1274C700D001A55CA /* Function03.cpp */,
+				3E45F8D2274C700D001A55CA /* Function03.hpp */,
+				3E45F8D4274C70C5001A55CA /* NonlinearSolver03.h */,
+			);
+			path = NonlinearSolver03;
+			sourceTree = "<group>";
+		};
+		3E45F8DA274C740F001A55CA /* Virtual_Destructor */ = {
+			isa = PBXGroup;
+			children = (
+				3E45F8DB274C740F001A55CA /* main.cpp */,
+			);
+			path = Virtual_Destructor;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -132,6 +265,74 @@
 			productReference = 3E05CE7A274317C500814C80 /* EurCall */;
 			productType = "com.apple.product-type.tool";
 		};
+		3E45F8AD274C495E001A55CA /* NonlinearSovler01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E45F8B4274C495E001A55CA /* Build configuration list for PBXNativeTarget "NonlinearSovler01" */;
+			buildPhases = (
+				3E45F8AA274C495E001A55CA /* Sources */,
+				3E45F8AB274C495E001A55CA /* Frameworks */,
+				3E45F8AC274C495E001A55CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NonlinearSovler01;
+			productName = NonlinearSovler01;
+			productReference = 3E45F8AE274C495E001A55CA /* NonlinearSovler01 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3E45F8BB274C60D4001A55CA /* Vector_Iterator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E45F8C0274C60D4001A55CA /* Build configuration list for PBXNativeTarget "Vector_Iterator" */;
+			buildPhases = (
+				3E45F8B8274C60D4001A55CA /* Sources */,
+				3E45F8B9274C60D4001A55CA /* Frameworks */,
+				3E45F8BA274C60D4001A55CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vector_Iterator;
+			productName = Vector_Iterator;
+			productReference = 3E45F8BC274C60D4001A55CA /* Vector_Iterator */;
+			productType = "com.apple.product-type.tool";
+		};
+		3E45F8C9274C6FBD001A55CA /* NonlinearSolver03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E45F8CE274C6FBD001A55CA /* Build configuration list for PBXNativeTarget "NonlinearSolver03" */;
+			buildPhases = (
+				3E45F8C6274C6FBD001A55CA /* Sources */,
+				3E45F8C7274C6FBD001A55CA /* Frameworks */,
+				3E45F8C8274C6FBD001A55CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NonlinearSolver03;
+			productName = NonlinearSolver03;
+			productReference = 3E45F8CA274C6FBD001A55CA /* NonlinearSolver03 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3E45F8D8274C740F001A55CA /* Virtual_Destructor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E45F8DF274C740F001A55CA /* Build configuration list for PBXNativeTarget "Virtual_Destructor" */;
+			buildPhases = (
+				3E45F8D5274C740F001A55CA /* Sources */,
+				3E45F8D6274C740F001A55CA /* Frameworks */,
+				3E45F8D7274C740F001A55CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Virtual_Destructor;
+			productName = Virtual_Destructor;
+			productReference = 3E45F8D9274C740F001A55CA /* Virtual_Destructor */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -145,6 +346,18 @@
 						CreatedOnToolsVersion = 13.1;
 					};
 					3E05CE79274317C500814C80 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3E45F8AD274C495E001A55CA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3E45F8BB274C60D4001A55CA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3E45F8C9274C6FBD001A55CA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3E45F8D8274C740F001A55CA = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -164,6 +377,10 @@
 			targets = (
 				3E05CE652743156F00814C80 /* Topic7_ClassNotes_Mac */,
 				3E05CE79274317C500814C80 /* EurCall */,
+				3E45F8AD274C495E001A55CA /* NonlinearSovler01 */,
+				3E45F8BB274C60D4001A55CA /* Vector_Iterator */,
+				3E45F8C9274C6FBD001A55CA /* NonlinearSolver03 */,
+				3E45F8D8274C740F001A55CA /* Virtual_Destructor */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +401,41 @@
 				3E05CE83274317E400814C80 /* EurCall.cpp in Sources */,
 				3E05CE7D274317C500814C80 /* main.cpp in Sources */,
 				3E05CE8927431ABF00814C80 /* Function02.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E45F8AA274C495E001A55CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E45F8C5274C618A001A55CA /* NonlinearSolver01.cpp in Sources */,
+				3E45F8B7274C4983001A55CA /* Function01.cpp in Sources */,
+				3E45F8B1274C495E001A55CA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E45F8B8274C60D4001A55CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E45F8BF274C60D4001A55CA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E45F8C6274C6FBD001A55CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E45F8D3274C700D001A55CA /* Function03.cpp in Sources */,
+				3E45F8CD274C6FBD001A55CA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E45F8D5274C740F001A55CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E45F8DC274C740F001A55CA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +593,86 @@
 			};
 			name = Release;
 		};
+		3E45F8B2274C495E001A55CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU4LAB7ZMR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E45F8B3274C495E001A55CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU4LAB7ZMR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E45F8C1274C60D4001A55CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU4LAB7ZMR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E45F8C2274C60D4001A55CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU4LAB7ZMR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E45F8CF274C6FBD001A55CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU4LAB7ZMR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E45F8D0274C6FBD001A55CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU4LAB7ZMR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E45F8DD274C740F001A55CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU4LAB7ZMR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E45F8DE274C740F001A55CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU4LAB7ZMR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -367,6 +699,42 @@
 			buildConfigurations = (
 				3E05CE7F274317C500814C80 /* Debug */,
 				3E05CE80274317C500814C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E45F8B4274C495E001A55CA /* Build configuration list for PBXNativeTarget "NonlinearSovler01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E45F8B2274C495E001A55CA /* Debug */,
+				3E45F8B3274C495E001A55CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E45F8C0274C60D4001A55CA /* Build configuration list for PBXNativeTarget "Vector_Iterator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E45F8C1274C60D4001A55CA /* Debug */,
+				3E45F8C2274C60D4001A55CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E45F8CE274C6FBD001A55CA /* Build configuration list for PBXNativeTarget "NonlinearSolver03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E45F8CF274C6FBD001A55CA /* Debug */,
+				3E45F8D0274C6FBD001A55CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E45F8DF274C740F001A55CA /* Build configuration list for PBXNativeTarget "Virtual_Destructor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E45F8DD274C740F001A55CA /* Debug */,
+				3E45F8DE274C740F001A55CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
