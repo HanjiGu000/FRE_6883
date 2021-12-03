@@ -13,7 +13,10 @@ int main() {
 
     double r = 0.03;
     Matrix C(d);
-    for(int i = 0; i < d; i++) C[i].resize(d);
+    for(int i = 0; i < d; i++)
+    {
+        C[i].resize(d);
+    }
     
     C[0][0] = 0.1;
     C[0][1] = -0.1;
@@ -24,15 +27,19 @@ int main() {
     C[2][0] = 0.0;
     C[2][1] = 0.0;
     C[2][2] = 0.3;
+    cout << "C: " << endl << C << endl;
     MCModel Model(S0,r,C);
 
     double T = 1.0/12.0;
     double K = 200.0;
     int m = 30;
+    double epsilon = 0.001;
     ArthmAsianCall Option(T, K, m);
 
     long N = 3000;
-    cout << "Arithmetic Basket Call Price = " << Option.PriceByMC(Model, N) << endl;
+    cout << "Arithmetic Basket Call Price = " << Option.PriceByMC(Model, N, epsilon) << endl;
+    Vector delta = Model.GetDelta();
+    cout << "Delta = " << delta << endl;
 
     return 0;
 }

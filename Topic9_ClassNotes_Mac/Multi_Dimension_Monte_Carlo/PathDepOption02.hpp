@@ -12,7 +12,7 @@ namespace fre {
     public:
         PathDepOption(double T_, double K_, int m_)
             :Price(0.0), T(T_), K(K_), m(m_) {}
-        double PriceByMC(MCModel& Model, long N);
+        double PriceByMC(MCModel& Model, long N, double epsilon);
         virtual ~PathDepOption() {}
         virtual double Payoff(const SamplePath& S) const = 0;
     };

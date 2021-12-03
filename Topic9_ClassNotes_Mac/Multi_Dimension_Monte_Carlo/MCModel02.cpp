@@ -48,7 +48,7 @@ namespace fre {
     {
         // initialize St with all intial value of S0
         Vector St = S0;
-        int d = S0.size();
+        int d = (int)S0.size();
         
         // generate one path with m sample points
         for (int k = 0; k < m; k++)
